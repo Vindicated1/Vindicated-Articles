@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+h1{
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bolder;
+  padding: 2rem;
+  background-color: blue;
+  color: white;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  color: blue;
+  text-decoration: underline;
+}
+img{
+  height: auto;
+  width: 80%;
+}
+.introductoryParagraph{
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.descritionText{
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+}
+section ol li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+}
+footer h2{
+  color: white;
+}
+footer a{
+  color: yellow;
+  text-decoration: none;
+}
+.footerText{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2rem;
+}
+
+@media (max-width:900px){
+  h1{
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .introductoryParagraph{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+}
